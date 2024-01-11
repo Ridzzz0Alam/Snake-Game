@@ -49,10 +49,10 @@ void Draw() {
 		cout << endl;
 	}
 
-	for (int i = 0; i < height + 1; i++) {
+	for (int i = 0; i < height + 1; i++) 
 		cout << "#";
-	}
 	cout << endl;
+	cout << "Score:" << score << endl;
 }
 
 void Input() 
